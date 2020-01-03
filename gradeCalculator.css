@@ -1,0 +1,162 @@
+/*
+	Comment
+*/
+
+a { /* Comment */ color: /* Comment */ Red; }
+
+body {
+	color: Black;
+	background-color: #1A888A;;
+	text-align: left;
+}
+
+@media screen and (max-width:713px){
+    
+	
+	h1{
+		text-align: center;
+	}
+	
+    
+}
+
+@media screen and (min-width:450px){
+    
+	
+	body{
+		font-size: 1.2em;
+	}
+	
+	.first{
+		font-size: 0.8em;
+	}
+    .third{
+		font-size: 0.8em;
+	}
+}
+
+.what{
+	text-align:center;
+	color:white;
+}
+
+.but{
+text-align:center;
+max-width:100%;
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+      
+     
+	 background:#191919; 
+	color:#fff; 
+	border:none;
+	
+	height:50px;
+	font-size:1.0em;
+	padding:0 1em;
+	 
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ 
+	  
+}
+
+.left:hover{
+    
+	background:Black;
+	color:#fff; 
+	border:none;
+	
+	height:60px;
+	font-size:1.0em;
+	padding:0 1em;
+	cursor:pointer;
+	transition:800ms ease all;
+	
+	 left:210px;
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+     
+	  
+}
+.right{
+	
+    background:#191919; 
+	color:#fff; 
+	border:none;
+	position:relative;
+	height:50px;
+	font-size:1.0em;
+	padding:0 1em;
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
+	
+}
+
+.right:hover{
+	
+	background:Black;
+	color:#fff; 
+	border:none;
+	
+	height:60px;
+	font-size:1.0em;
+	padding:0 1em;
+	cursor:pointer;
+	transition:800ms ease all;
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	 
+	 
+}
+
+h1{
+	color:White;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+h3{
+	color:White;
+	font-family:Lucida, sans-serif;
+}
+
+h2{
+	color:Black;
+}
+
+.first{
+  background:#FFFAF0;
+  color:#000000;
+  border-style: solid;
+  border-color:#000000;
+  position:relative;
+  
+}
+
+.second{
+	background:#A932FF; 
+	color: white;
+	border-style: solid;
+  	border-color:white;
+	height:50px;
+	width: 200px;
+	font-size:20px;
+}
+
+.second:hover{
+  width: 210px;
+  height: 60px;
+  background: purple ;
+  transition: 800ms ease all;
+}
+
+.clear{
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.clear:hover{
+  background: #4CAF50; /* Green */
+  color: white;
+}

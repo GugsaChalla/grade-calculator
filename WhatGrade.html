@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gugsa's Grade Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet"/>
+	<link rel="stylesheet" href="gradeCalculator.css"/>
+	<script src="WhatGrade.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>Welcome to Gugsa's Grade Calculator</h1>
+	<img width="200" height="100" src="calculator.png" id="calculator"/>
+	<hr>
+	<div id="about">
+		<h3>About</h3>
+		<p>This page allows you to calculate the grade you need on your final exam to obtain a desired course grade.</p>
+	
+	<h4>Remember:</h4>
+	<p>Only write the grade and weight numbers in the text boxes (do not include %).
+	<br> If you don't know your final grade before your exam, go to the homepage and click the 
+	<br>"Find Current Grade" button to figure out your final grade.
+	<br>Fill in every text box and include only numbers between 0 and 100 (inclusive) for accurate results.</p>
+	
+	<h3>Start Calculating!</h3>
+	<ol>
+		<li>Final Grade Before Exam</li><input type="text" maxlength="3"id="finalGrade" value =0>
+		<li>Desired Final Grade</li><input type="text" maxlength="3"id="desiredGrade" value =0>
+		<li>Weight of Final Exam</li><input type="text" maxlength="3"id="weight" value =0>
+	</ol>
+
+<div id="buttons">
+		
+		
+		<ol>
+			<Button class="second" id="Calculate">Calculate</Button>
+		</ol>
+	</div>
+	<h2 id="theGrade">You need a <span id="courseGrade"></span>% on your final exam</h2>
+	
+	<Button class="third" id="clear">Clear Input</Button>
+</body>
+</html>
