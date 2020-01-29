@@ -19,6 +19,7 @@ function showThirdGrade(){
 	document.getElementById("More3").style.display="none";
 	document.getElementById("More4").style.display="initial";
 }
+
 function hideFourthGrade(){
 	var FourthGrade;
 	FourthGrade= document.getElementById("4thGrade");
@@ -33,6 +34,7 @@ function showFourthGrade(){
 	document.getElementById("More4").style.display="none";
 	document.getElementById("More5").style.display="initial";
 }
+
 function hideFifthGrade(){
 	var FifthGrade;
 	FifthGrade= document.getElementById("5thGrade");
